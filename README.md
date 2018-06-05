@@ -3,13 +3,13 @@
 This script does (1) sina search against arb file, (2) parse the output, and (3) make summary reports.  
 SINA program and ARB ribosomal database files are distributed by SILVA. 
 
-# Requirement: 
+## Requirement: 
 	SINA should be in PATH variable.
 
-# Usage: 
+## Usage: 
 	$prog fa=<fasta_file> arb=<arb_file> (lca=<0,1; default 1>) (lca_field=<lca field of arb; default tax_slv>) (out=<out; default fa.arb.fasta>)
 	
-# Options:
+## Options:
 	fa: multiple fasta file
 	arb: arb file
 	lca: do lca tax assinment of sina or not
@@ -26,6 +26,6 @@ SINA program and ARB ribosomal database files are distributed by SILVA.
 		<out>.tax.summary.ident.95.txt: summary of lca-assigned tax result
 		<out>.arb.fa: ARB-compatible as pre-aligned sequences (gap characters at 5' and 3' ends are '.' insted of '-'. 
 
-# Note:
+## Note:
 	If you are just executing multiple fa2sina.pl simulutaneiously, check the arb file already has pt server. 
       
