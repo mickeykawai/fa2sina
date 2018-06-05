@@ -7,7 +7,7 @@ SINA program and ARB ribosomal database files are distributed by SILVA.
 	SINA should be in PATH variable.
 
 ## Usage: 
-	$prog fa=<fasta_file> arb=<arb_file> (lca=<0,1; default 1>) (lca_field=<lca field of arb; default tax_slv>) (out=<out; default fa.arb.fasta>)
+	fa2sina.pl fa=<fasta_file> arb=<arb_file> (lca=<0,1; default 1>) (lca_field=<lca field of arb; default tax_slv>) (out=<out; default fa.arb.fasta>)
 	
 ## Options:
 	fa: multiple fasta file
